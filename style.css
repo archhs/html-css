@@ -47,3 +47,70 @@ p {
 a {
     font-size: 32px;
 }
+#details-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #844d9e;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#details-btn:hover {
+    background-color: blue;
+}
+
+/* Скрытый текст */
+.hidden {
+    display: none;
+}
+
+/* Форма обратной связи */
+.contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 7px;
+    max-width: 500px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: darkblue;
+}
+
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    padding: 10px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #844d9e;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: blue;
+}
