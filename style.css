@@ -1,20 +1,18 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(180, 40, 40); 
     margin: 100px;
     background: #c4eeee56;
     color: #844d9e;
 }
 
-
 h1 {
-    color: blue ;
+    color: blue;
     font-size: 45px;
     text-align: center;
 }
 
 h2 {
-    color:blue;
+    color: blue;
     font-size: 32px;
 }
 
@@ -32,6 +30,7 @@ nav a {
     color: darkblue;
     font-size: 20px;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -44,9 +43,12 @@ p {
     font-size: 24px;
 }
 
-a {
-    font-size: 32px;
+/* Скрытый текст — гарантированно скрыт до нажатия */
+.hidden {
+    display: none !important;
 }
+
+/* Кнопка "Подробнее" */
 #details-btn {
     display: block;
     margin: 20px auto;
@@ -64,11 +66,6 @@ a {
 
 #details-btn:hover {
     background-color: blue;
-}
-
-/* Скрытый текст */
-.hidden {
-    display: none;
 }
 
 /* Форма обратной связи */
@@ -113,4 +110,17 @@ a {
 
 .contact-form button:hover {
     background-color: blue;
+}
+
+.form-message {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.form-message.error {
+    color: rgb(180, 40, 40);
+}
+
+.form-message.success {
+    color: green;
 }
